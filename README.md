@@ -1,7 +1,7 @@
 # Data Science & Machine Learning Practice
 
 В репозитории собраны учебные и практические задачи по Data Science и Machine Learning,
-выполненные в рамках курсов Stepik, Karpov.Courses, LeetCode и Kaggle.
+выполненные в рамках курсов Stepik, Karpov.Courses и Kaggle.
 
 Темы:
 - Статистический анализ в Python
