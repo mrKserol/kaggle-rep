@@ -35,19 +35,6 @@ house_prices/
 pip install pandas numpy scikit-learn catboost matplotlib seaborn
 ```
 
-При необходимости можно добавить в проект `requirements.txt`.
-
-## Как запустить
-
-1. Клонировать репозиторий и перейти в папку проекта.
-2. Положить данные в `data/raw/` (см. выше).
-3. Открыть и выполнить ноутбук по порядку:
-   - `notebooks/01_house_prices_solution_pipeline.ipynb`
-
-Запускать ноутбук нужно из корня `house_prices/` (текущая рабочая директория — папка с `data/`, `notebooks/`, `src/`), так как в коде используются пути вида `../data/raw/` и `sys.path.append` к `src`.
-
-После выполнения в `submissions/` появится (или обновится) `submission_catboost.csv`.
-
 ## Подход
 
 - **Препроцессинг:** заполнение пропусков (медиана по соседству для `LotFrontage`, мода/медиана для остальных), приведение категориальных колонок.
