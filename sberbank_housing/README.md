@@ -18,7 +18,7 @@ sberbank_housing/
 │   └── train_model.ipynb  # Обучение модели и сабмит
 ├── src/                   # Пайплайн
 │   ├── config.py          # Пути, константы, параметры моделей
-│   ├── data.py            # Загрузка train/test/macro, джойн по дате
+│   ├── data.py            # Загрузка train/test/macro, join по дате
 │   ├── features.py        # Фичи: дата, площади, кодирование, пропуски
 │   ├── train.py           # Разбиение по времени, LightGBM/XGBoost, сохранение
 │   └── predict.py         # Предсказание, формирование submission.csv
