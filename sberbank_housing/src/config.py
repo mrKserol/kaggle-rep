@@ -3,7 +3,7 @@
 """
 from pathlib import Path
 
-# Корень проекта (родитель папки src)
+# Корень проекта
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Данные
@@ -26,15 +26,15 @@ TARGET_COL = "price_doc"
 ID_COL = "id"
 TIMESTAMP_COL = "timestamp"
 
-# Лог-трансформация целевой (часто даёт лучшую метрику)
+# Лог-трансформация целевой 
 USE_LOG_TARGET = True
 
-# Параметры обучения (можно переопределять из CLI или скрипта)
+# Параметры обучения 
 RANDOM_STATE = 42
 TEST_SIZE = 0.2  # доля валидации при разбиении по времени
-N_FOLDS = 5      # для cross-validation (опционально)
+N_FOLDS = 5      # для cross-validation 
 
-# XGBoost / LightGBM — дефолтные параметры (заготовка)
+# XGBoost / LightGBM — дефолтные параметры
 XGB_PARAMS = {
     "n_estimators": 500,
     "max_depth": 6,
